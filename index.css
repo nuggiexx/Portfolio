@@ -1,0 +1,110 @@
+
+* {
+    font-family: 'Petit Formal Script', cursive;
+}
+
+@media (max-width: 800px) {
+    #holdPic {
+        padding: 2%;
+    }
+
+    .card {
+        margin: 4%;
+    }
+}
+
+/* remove scrollbar from page */
+body {
+    -ms-overflow-style: none;  /* IE 10+ */
+    overflow: -moz-scrollbars-none;  /* Firefox */
+}
+
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+/* first page, welcome */
+#homeContainer {
+    background: url('./pictures/wall.jpg');
+    background-repeat: repeat;
+    height: 100vh;
+    font-size: 8vh;
+    position: relative;
+    text-align: right;
+}
+
+#homeWords {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    color: black;
+}
+
+/* skills page */
+#skillsContainer {
+    background: url('./pictures/goldMarble.jpg');
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-size: 6vh;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#imgContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 8% 0 4% 0;
+}
+
+#holdPic {
+    width: 200px;
+}
+
+.pic {
+    width: 170px;
+    height: 170px;
+}
+
+/* show off my projects */
+#projectsContainer {
+    background-color: rgb(232, 255, 203);
+    min-height: 100vh;
+}
+
+#projectsContainer {
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+
+.card {
+    width: 350px;
+}
+
+.card-text {
+    font-size: 3.5vh;
+}
+
+/* last section */
+#endingContainer {
+    background: url('./pictures/beach.gif');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#endingContainer p {
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 5%;
+}
