@@ -25,10 +25,11 @@ body {
 
 /* first page, welcome */
 #homeContainer {
-    background: url('./pictures/wall.jpg');
-    background-repeat: repeat;
+    background: url('./pictures/');
+    background-attachment: fixed;
+    background-size: cover;
     height: 100vh;
-    font-size: 8vh;
+    font-size: 7.5vh;
     position: relative;
     text-align: right;
 }
@@ -37,14 +38,13 @@ body {
     position: absolute;
     right: 10%;
     top: 20%;
-    text-shadow: 1px 1px rgb(255, 255, 255);
-    color: black;
+    color: #000000;
 }
 
 /* skills page */
 #skillsContainer {
-    background: url('./pictures/goldMarble.jpg');
-    background-attachment: fixed;
+    background: url('./pictures/');
+    background-size: cover;
     min-height: 100vh;
     font-size: 6vh;
     padding-top: 5%;
@@ -69,7 +69,8 @@ body {
 
 /* show off my projects */
 #projectsContainer {
-    background-color: rgb(232, 255, 203);
+    background: url('./pictures/');
+    background-size: cover;
     min-height: 100vh;
 }
 
