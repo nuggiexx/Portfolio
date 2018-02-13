@@ -25,10 +25,10 @@ body {
 
 /* first page, welcome */
 #homeContainer {
-    background: url('./pictures/');
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
+    background-color: white;
+    /*background-attachment: fixed;
+    background-size: cover;*/
+    min-height: 100vh;
     font-size: 7.5vh;
     position: relative;
     text-align: right;
@@ -43,8 +43,8 @@ body {
 
 /* skills page */
 #skillsContainer {
-    background: url('./pictures/');
-    background-size: cover;
+    background-color: white;
+    /*background-size: cover;*/
     min-height: 100vh;
     font-size: 6vh;
     padding-top: 5%;
@@ -63,14 +63,14 @@ body {
 }
 
 .pic {
-    width: 170px;
-    height: 170px;
+    max-width: 170px;
+    max-height: 170px;
 }
 
 /* show off my projects */
 #projectsContainer {
-    background: url('./pictures/');
-    background-size: cover;
+    background-color: white;
+    /*background-size: cover;*/
     min-height: 100vh;
 }
 
@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding-top: 4%;
+    padding: 5%;
 }
 
 .card {
@@ -97,11 +97,11 @@ body {
 
 /* last section */
 #endingContainer {
-    background: url('./pictures/beach.gif');
+    background-color: white;
     height: 100vh;
-    background-size: cover;
+    /*background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center;*/
 }
 
 #endingContainer p {
