@@ -13,9 +13,84 @@
 </head>
 
 <body>
-    <div id="main">
-        <p>Welcome</p>
+    <!--  background part of page, welcome!   -->
+    <div id='focusPart'>
+        <p>Hello</p>
+        <p>My name is<br>Ashley Hernandez</p>
     </div>
+
+    <!--  main content on page    -->
+    <div id='scrollyPart'>
+
+        <div id='aboutMePart'> <!-- my about me -->
+            <p><em>A little about me</em></p>
+            <p>I'm a self-taught web developer. I'm a student in California, and also an avid animal lover.</p>
+            <p>I love a lot of things, which include, but are not limited to:<br>Reading, Creating, Calligraphy, Making crazy new recipes</p>
+        </div>
+
+        <div id='skillsPart'> <!-- my skills section -->
+            <p><em>Here's a look at what I've got up my sleeve</em></p>
+            <div id='imgContainer'>
+                <div id='holdPic'>
+                    <img class='pic' src='./pictures/circleMarbleH.png'/>
+                </div>
+                <div id='holdPic'>
+                    <img class='pic' src='./pictures/circleMarbleC.png'/>
+                </div>
+                 <div id='holdPic'>
+                    <img class='pic' src='./pictures/circleMarblejS.png'/>
+                </div>
+                <div id='holdPic'>
+                    <img class='pic' src='./pictures/circleMarblejQ.png'/>
+                </div>
+            </div>
+        </div>
+
+        <div id='projectsPart'> <!-- showing off my projects -->
+            <p><em>Made by hand</em></p>
+
+            <div id='cardsContainer'>
+                <div id='firstCard'>
+                    <div class='card'>
+                        <a href="https://nuggiexx.github.io/Weather/" target="_blank">
+                            <img class='card-img-bottom' src='./pictures/weather.JPG'/>
+                        </a>
+                        <div class='card-body'>
+                            <p class='card-text'>Want to check the weather?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='secondCard'>
+                    <div class='card'>
+                        <a href="https://nuggiexx.github.io/Get-quotes/" target="_blank">
+                            <img class='card-img-bottom' src='./pictures/quotes.JPG'/>
+                        </a>
+                        <div class='card-body'>
+                            <p class='card-text'>Looking for a new favorite quote?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id='thirdCard'>
+                    <div class='card'>
+                        <a href="https://nuggiexx.github.io/Wiki-Viewer/" target="_blank">
+                            <img class='card-img-bottom' src='./pictures/wiki.JPG'/>
+                        </a>
+                        <div class='card-body'>
+                            <p class='card-text'>Need to make a search?</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id='contactPart'> <!-- contact section  -->
+            <p><em>Want to talk?</em></p>
+        </div>
+
+    </div> <!-- fín -->
 
     <script src="index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

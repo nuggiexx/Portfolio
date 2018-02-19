@@ -1,5 +1,87 @@
-p {
+* {
     font-family: 'Petit Formal Script', cursive;
-    font-size: 4vh;
+}
+
+/* remove scrollbar from page */
+body {
+    -ms-overflow-style: none;  /* IE 10+ */
+    overflow: -moz-scrollbars-none;  /* Firefox */
+}
+
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+/*  this is the styling for the static background */
+#focusPart {
+    border: 1px solid red;
+    background: url('');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
     text-align: right;
+}
+
+/* this is the styling for the scrolling content*/
+#scrollyPart {
+    border: 1px solid blue;
+    background-color: mistyrose;
+    opacity: 0.7;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 45vw;
+    height: 80vh;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+/* this is the section for my skills */
+@media (max-width: 800px) {
+    #holdPic {
+        padding: 2%;
+    }
+}
+
+#imgContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 3% 0 3% 0;
+}
+
+#holdPic {
+    width: 200px;
+}
+
+.pic {
+    max-width: 130px;
+    max-height: 130px;
+}
+
+/* this is my projects section */
+/*@media (max-width: 800px) {
+    .card {
+        margin: 4%;
+    }
+}*/
+
+#firstCard, #secondCard, #thirdCard {
+    padding: 3%;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.card {
+    width: 350px;
+}
+
+.card-text {
+    font-size: 2vh;
 }
