@@ -2,84 +2,21 @@
     font-family: 'Petit Formal Script', cursive;
 }
 
-/* remove scrollbar from page */
-body {
-    -ms-overflow-style: none;  /* IE 10+ */
-    overflow: -moz-scrollbars-none;  /* Firefox */
-}
-
 ::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
 
 /*  this is the styling for the static background */
-#focusPart {
-    background: url('./pictures/water.png');
+body {
+    -ms-overflow-style: none;  /* remove scroll bar for IE 10+ */
+    overflow: -moz-scrollbars-none;  /* remove scrollbar for Firefox */
+    background: url('./pictures/construction.jpeg');
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     position: relative;
-    text-align: right;
-}
-
-/* this is the styling for the scrolling content*/
-#scrollyPart {
-    background-color: white;
-    opacity: 0.7;
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    width: 45vw;
-    height: 80vh;
-    overflow-y: scroll;
     text-align: center;
-}
-
-/* this is the section for my skills */
-@media (max-width: 800px) {
-    #holdPic {
-        padding: 2%;
-    }
-}
-
-#imgContainer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 3% 0 3% 0;
-}
-
-#holdPic {
-    width: 200px;
-}
-
-.pic {
-    max-width: 130px;
-    max-height: 130px;
-}
-
-/* this is my projects section */
-/*@media (max-width: 800px) {
-    .card {
-        margin: 4%;
-    }
-}*/
-
-#firstCard, #secondCard, #thirdCard {
-    padding: 3%;
-}
-
-#cardsContainer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 5%;
-}
-
-.card {
-    width: 350px;
-}
-
-.card-text {
-    font-size: 2vh;
+    font-size: 7vh;
+    padding: 4%;
+    color: white;
 }
