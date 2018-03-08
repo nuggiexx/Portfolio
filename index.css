@@ -3,20 +3,18 @@
 }
 
 ::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+    display: none;
 }
 
 /*  this is the styling for the static background */
 body {
     -ms-overflow-style: none;  /* remove scroll bar for IE 10+ */
     overflow: -moz-scrollbars-none;  /* remove scrollbar for Firefox */
-    background: url('./pictures/construction.jpeg');
-    background-attachment: fixed;
+    background: url('./pictures/sleepyKitty.jpeg');
     background-size: cover;
     height: 100vh;
-    position: relative;
-    text-align: center;
-    font-size: 7vh;
-    padding: 4%;
+    padding-left: 1em;
+    font-size: 5vh;
     color: white;
+    overflow: hidden;
 }
